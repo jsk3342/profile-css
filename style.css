@@ -1,90 +1,94 @@
 /* reset css */
 
-body, div, h1, p, h2, ul, li { 
-    margin: 0;
-    padding: 0;
+body,
+div,
+h1,
+p,
+h2,
+ul,
+li {
+  margin: 0;
+  padding: 0;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
-
 
 /* layout */
 
 .wrapper {
-    background-color: brown;
-    width: 600px;
-    margin: 60px auto;
-    background-color: #DDD;
+  background-color: brown;
+  max-width: 800px;
+  margin: 60px auto;
+  background-color: #ddd;
 }
 
 /* design */
 
 body {
-    background-image: url(./images/background.gif);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url(./images/background.gif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header {
-    padding: 50px 40px;
-    text-align: center;
-    color: white;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(./images/cover03.png);
+  padding: 50px 40px;
+  text-align: center;
+  color: white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./images/cover03.png);
 }
 
 .header .header-cover {
-    border-radius: 50%;
-    border: 15px solid white;
-
+  border-radius: 50%;
+  border: 15px solid white;
 }
 
 .header .header-title {
-    padding: 30px 0;
-    font-size: 3rem;
+  padding: 30px 0;
+  font-size: 3rem;
 }
 
 .header .header-sub {
-    font-size: 1.6rem;
-    padding: 20px 0;
-    border-bottom: 10px solid wheat;
-    display: inline-block;
+  font-size: 1.6rem;
+  padding: 20px 0;
+  border-bottom: 10px solid wheat;
+  display: inline-block;
 }
 
 .main {
-    margin: 30px;
-    padding: 20px;
-    background-color: #fff;
-    background-image: url(./images/icon-information.png);
-    background-repeat: no-repeat;
-    background-position: right 10% center;
+  margin: 30px;
+  padding: 20px;
+  background-color: #fff;
+  background-image: url(./images/icon-information.png);
+  background-repeat: no-repeat;
+  background-position: right 10% center;
 }
 
 .main .main-title {
-    padding: 20px 0;
-    color: lightcoral;
+  padding: 20px 0;
+  color: lightcoral;
 }
 
 .main .main-list li {
-    padding: 5px 20px;
-    border-left: 5px solid #DDD;
+  padding: 5px 20px;
+  border-left: 5px solid #ddd;
 }
 
 .main.bg-tool {
-    background-image: url(./images/icon-skills.png);
-    background-repeat: no-repeat;
-    background-position: right 10% center;
+  background-image: url(./images/icon-skills.png);
+  background-repeat: no-repeat;
+  background-position: right 10% center;
 }
 
 .footer {
-    background-color: #FFF;
-    color: #999;
-    text-align: center;
-    letter-spacing:1.3rem;
-    padding: 0.3rem 0;
+  background-color: #fff;
+  color: #999;
+  text-align: center;
+  letter-spacing: 1.3rem;
+  padding: 0.3rem 0;
 }
